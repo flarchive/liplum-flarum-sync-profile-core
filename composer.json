@@ -1,0 +1,46 @@
+{
+  "name": "liplum/flarum-sync-profile-core",
+  "description": "The core module of user profile synchronization when authenticated by an external identity provider.",
+  "version": "0.1",
+  "keywords": [
+    "flarum",
+    "flarum-extension",
+    "flarum-ext"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.2"
+  },
+  "authors": [
+    {
+      "name": "Liplum",
+      "homepage": "https://liplum.net/",
+      "email": "Li_plum@outlook.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/liplum/flarum-sync-profile/issues",
+    "source": "https://github.com/liplum/flarum-sync-profile"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liplum\\SyncProfile\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Sync Profile Core",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-sync",
+        "backgroundColor": "#b4333f",
+        "color": "#fff"
+      }
+    }
+  },
+  "require-dev": {
+    "fof/masquerade": "^2.1"
+  }
+}
