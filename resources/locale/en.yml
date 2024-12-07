@@ -1,0 +1,21 @@
+liplum-sync-profile-core:
+  admin:
+    sync-nickname:
+      label: Sync Nickname
+    block-profile-changes:
+      label: Block Profile Changes
+      help: >
+        Block users from changing their profile on Flarum.
+        Working properly with extensions like "FoF User Bio".
+        Not working with extensions which not respect "editable" attributes on user,
+        like "Profile Cover", "User Badges".
+    sync-avatar:
+      label: Sync Avatar
+    sync-groups:
+      label: Sync Groups
+    sync-bio:
+      label: Sync Bio
+      help: Requires Friends of Flarum User Bio extension
+    sync-fof-masquerade:
+      label: Sync Masquerade Attributes
+      help: Requires Friends of Flarum Masquerade extension
