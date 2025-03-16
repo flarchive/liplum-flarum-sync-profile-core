@@ -1,0 +1,2 @@
+(()=>{"use strict";const o=flarum.core.compat["forum/components/UserCard"],r=flarum.core.compat["forum/app"],e=flarum.core.compat["common/extend"];var t="liplum-sync-profile-core";r.initializers.add(t,(function(){(0,e.override)(o.prototype,"view",(function(o){return r.forum.attribute(t+".block-profile-changes")&&(this.attrs.editable=!1),o()}))}))})(),module.exports={};
+//# sourceMappingURL=forum.js.map
